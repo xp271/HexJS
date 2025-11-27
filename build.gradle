@@ -27,12 +27,12 @@ subprojects {
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
         // The following line declares the mojmap mappings, you may use other mappings as well
-        mappings "net.fabricmc:yarn:1.19.2+build.28:v2"
+        mappings "net.fabricmc:yarn:1.20.1+build.10:v2"
         // The following line declares the yarn mappings you may select this one as well.
         // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
 
-        implementation("dev.latvian.mods:rhino:1902.2.3-build.284")
-        implementation("dev.latvian.mods:kubejs:1902.6.2-build.73")
+        implementation("dev.latvian.mods:rhino:2001.2.2-build.18")
+        implementation("dev.latvian.mods:kubejs:2001.6.4-build.121")
     }
 }
 

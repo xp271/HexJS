@@ -17,7 +17,7 @@ public class ForcedCastMediaDrawMixin {
 
     @ModifyVariable(
             method = "withdrawMedia",
-            at = @At(value = "INVOKE", target = "net/minecraft/item/ItemStack.isIn (Lnet/minecraft/tag/TagKey;)Z"), ordinal = 2)
+            at = @At(value = "INVOKE", target = "net/minecraft/item/ItemStack.isIn (Lnet/minecraft/registry/tag/TagKey;)Z"), ordinal = 2)
     private boolean allowForcedCastMediaDraw(boolean original){
         CastingContext ctx = ((CastingHarness)(Object)this).getCtx();
         if (StorageManager.currentlyForcedPlayers.contains(ctx.getCaster().getUuid())) {
