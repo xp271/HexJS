@@ -7,8 +7,8 @@ import dev.latvian.mods.rhino.Context;
 import me.nanorasmus.nanodev.hex_js.kubejs.customIotas.CustomIota;
 import me.nanorasmus.nanodev.hex_js.storage.StorageManager;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 import java.util.logging.Logger;
 
